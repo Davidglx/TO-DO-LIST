@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to right, #a3279d, #040505);
+    color: rgb(255, 0, 0);
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    background-color: rgb(86, 100, 5);
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.taskBg {
+    background-color: rgb(86, 100, 5);
+    border-radius: 6px;
+    margin-bottom: 20px;    
+    padding: 10px 140px 10px 15px;
+    text-align: left;
+    font-size: 22px;
+    position: relative;
+}
+
+.taskBg div {
+    display: flex;
+    align-items: center;
+}
+
+.taskNumber {
+    color: #999;
+    border: 1px solid rgb(160, 110, 160);
+    font-weight: 900px;
+    border-radius: 50%;
+    width: 26px;
+    display: flex;
+    height: 26px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskBg .done .taskText {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.taskBg .taskText {
+    flex: 1;
+}
+
+.iconswrap {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    width: auto;
+    display: inline-block;
+}
+
+.taskBg .iconswrap span {
+    display: inline-block;
+    margin: 0px 10px 0 10px;
+    cursor: pointer;
+    color: red;
+}
+
+.taskBg .iconswrap span:hover {
+    color: green;
+}
+
+.nr-20 {
+    margin-right: 20px;
+}
